@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}" />
+    </head> 
+    <body>
+    <img class="clouds" src="{{url_for('static', filename='img1.svg')}}"/> 
+
+<div class="signup">
+    
+    <h2>Sign Up</h2>
+    <h3>It's quick and simple</h3>
+        <form class="form">
+    <div class="textbox">
+        <input type="text" required /> 
+        <br>
+        <label>First Name</label> 
+        
+        <!-- <span
+            class="material-symbols-outlined">
+                account circle </span> -->
+    </div>
+    <div class="textbox">
+        <input type="text" required /> 
+        <br>
+        <label>Last Name</label> 
+    </div>
+    <div class="textbox">
+        <input type="text" required /> 
+        <br>
+        <label>e-mail</label> 
+    </div>
+<!-- other textboxes -->
+ <p>
+Signed up already?
+<a href="/login">Login here </a>
+    </p> 
+    <button type="submit">
+        SIGN UP
+       <!-- <span
+            class="material-symbols-outlined">
+                arrow_forward 
+             </span>--> 
+                </button>
+            </form> 
+        </div> 
+    </body> 
+</html>
+
+
